@@ -1,6 +1,0 @@
-#1 Dictionaries – доступ и добавление
-
-student = {"name": "Ali", "age": 18}
-print(student["name"])   # доступ
-student["grade"] = "A"   # добавляем ключ
-print(student)
