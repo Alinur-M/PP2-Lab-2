@@ -1,13 +1,14 @@
-#1 Tuples – доступ, обновление и распаковка
+Examples
 
+#1 доступ 
 person = ("John", 25, "USA")
 print(person[0])  # доступ
 
-# обновление через преобразование в список
+#2 обновление
 person_list = list(person)
 person_list[1] = 30
 person = tuple(person_list)
 
-# распаковка
+#3 распаковка 
 name, age, country = person
 print(name, age, country)
