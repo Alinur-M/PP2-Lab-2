@@ -1,6 +1,28 @@
+Examples
 
-Lists доступ к элементам
-#1
-fruits = ["apple", "banana", "cherry"]
-print(fruits[0])   # apple
-print(fruits[-1])  # cherry
+#1 Доступ к элементам
+
+animals = ["cat", "dog", "mouse"]
+print(animals[0])  
+print(animals[2])   
+
+#2 Изменение и Добавление
+
+animals = ["cat", "dog", "mouse"]
+animals[1] = "rabbit"    
+animals.append("horse")  
+print(animals)
+
+#3 Удаление и Цикл
+
+animals = ["cat", "dog", "rabbit", "horse"]
+animals.remove("dog")
+for a in animals:
+    print("Animal:", a)
+
+#4 Сортировка и Копирование
+
+numbers = [5, 2, 9, 1]
+numbers.sort()
+copy_numbers = numbers.copy()
+print(numbers, copy_numbers)
