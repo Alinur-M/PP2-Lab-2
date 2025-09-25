@@ -1,5 +1,0 @@
-#1 Lists – сортировка и копирование
-numbers = [5, 2, 9, 1]
-numbers.sort()
-copy_numbers = numbers.copy()
-print(numbers, copy_numbers)
