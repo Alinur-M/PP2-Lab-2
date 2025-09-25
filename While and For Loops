@@ -1,0 +1,11 @@
+#1 While и For
+
+# while
+i = 1
+while i <= 5:
+    print("Шаг", i)
+    i += 1
+
+# for
+for j in range(5):
+    print("Число", j)
