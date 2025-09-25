@@ -1,5 +1,5 @@
 
-1. Lists доступ к элементам
+Lists доступ к элементам
 #1
 fruits = ["apple", "banana", "cherry"]
 print(fruits[0])   # apple
