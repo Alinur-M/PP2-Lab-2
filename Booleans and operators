@@ -1,0 +1,3 @@
+# 1 example
+num = 8
+print(num > 0 and num % 2 == 0)  # True если положительное и чётное
