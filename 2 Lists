@@ -1,3 +1,5 @@
+
+Lists – изменение и добавление элементов
 #1
 fruits = ["apple", "banana", "cherry"]
 fruits[1] = "orange"     # меняем banana → orange
