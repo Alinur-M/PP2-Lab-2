@@ -1,0 +1,5 @@
+#1
+fruits = ["apple", "banana", "cherry"]
+fruits[1] = "orange"     # меняем banana → orange
+fruits.append("kiwi")    # добавляем в конец
+print(fruits)
