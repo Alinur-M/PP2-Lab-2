@@ -1,0 +1,6 @@
+#1
+fruits = ["apple", "banana", "cherry"]
+fruits.remove("banana")
+for fruit in fruits:
+    print(fruit)
+
