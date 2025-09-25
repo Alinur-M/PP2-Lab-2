@@ -1,0 +1,24 @@
+Examples
+
+#1 Booleans and Operators
+
+num = 8
+print(num > 0 and num % 2 == 0)
+
+#2 Booleans
+
+is_raining = True
+is_warm = False
+print(is_raining)    
+print(is_warm)          
+print(not is_raining)  
+
+#3 Operators
+
+a = 12
+b = 5
+print(a + b)   
+print(a - b)  
+print(a * b)  
+print(a % b)   
+print(a ** 2)  
