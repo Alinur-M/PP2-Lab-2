@@ -1,0 +1,15 @@
+#1 If...else + match
+
+x = 15
+if x > 10:
+    print("Больше 10")
+else:
+    print("10 или меньше")
+
+# match
+day = 3
+match day:
+    case 1: print("Понедельник")
+    case 2: print("Вторник")
+    case 3: print("Среда")
+    case _: print("День не найден")
