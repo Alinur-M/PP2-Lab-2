@@ -1,0 +1,7 @@
+#1 Sets – операции
+
+a = {1, 2, 3}
+b = {3, 4, 5}
+print(a.union(b))        # объединение
+print(a.intersection(b)) # пересечение
+print(a.difference(b))   # разность
