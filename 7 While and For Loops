@@ -1,11 +1,11 @@
-#1 While и For
+Examples
 
-# while
+#1 while loops
 i = 1
 while i <= 5:
     print("Шаг", i)
     i += 1
 
-# for
+#2 for loops
 for j in range(5):
     print("Число", j)
